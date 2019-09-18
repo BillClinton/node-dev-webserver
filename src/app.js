@@ -90,5 +90,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('Webserver started on port .' + port);
+  console.log('Webserver started on port :' + port);
 });
